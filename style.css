@@ -63,6 +63,7 @@ margin-top: 10px;
 #main-block #content-column {
     width: 100%;
     background: #adadad;
+    max-height: auto;
     min-height: 300px;
     margin-bottom: 15px;
     border-radius: 10px;
@@ -100,6 +101,9 @@ margin-top: 10px;
 
 #main-block #content-column ul img{
     margin-right: 50%;
+}
+#main-block #content-column iframe{
+    margin-bottom: 10px;
 }
 
 #main-block #side-column{
