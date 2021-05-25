@@ -84,8 +84,6 @@ margin-top: 10px;
 
 #main-block #content-column ul{
     padding: 4px;
-    height:360px;
-    
 }
 
 #main-block #content-column li{
@@ -103,7 +101,7 @@ margin-top: 10px;
 }
 #main-block #content-column iframe{
     margin-bottom: 5px;
-    width:90%;
+    width:98%;
     height: 300px;
 }
 
@@ -214,6 +212,12 @@ float: right;
 }
 #main-block #side-column h2{
     padding-top:10px;
+}
+
+#main-block #content-column ul{
+    padding: 4px;
+    height:380px;
+    
 }
 
 #main-block #side-column{
