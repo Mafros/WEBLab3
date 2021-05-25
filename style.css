@@ -61,9 +61,7 @@ margin: 0 auto;
 margin-top: 10px;
 }
 #main-block #content-column {
-    width: 100%;
     background: #adadad;
-    max-height: auto;
     min-height: 300px;
     margin-bottom: 15px;
     border-radius: 10px;
@@ -207,17 +205,167 @@ float: right;
 }
 }
 @media (max-width:480px){
-#site-container #header-container #header {
-    width: 480px;
-    border-bottom: 5px;
-    border-color: black;
-}
-#main-block {
-    width: 480px;
-}
-
-#main-block #content-column li{
-    margin-bottom: 10px;
-}
+    body {
+        background: #fff;
+        }
+        html,body {
+        height: 100%;
+        }
+        .clear {
+        clear: both;
+        }
+        #site-container {
+        background: rgb(235, 235, 235);
+        min-height: 100%;
+        }
+        #hFooter {
+        height: 40px; /* высота подвала */
+        }
+        #footer { /* подвал */
+        background: #000000;
+        color: #fff;
+        height: 40px; /* высота подвала */
+        margin-top: -40px; /* делаем отрицательный отступ по высоте
+        равный высоте подвла, чтобы четко вписаться в размер экрана */
+        line-height: 40px;
+        
+        }
+        #footer p{
+            margin-left: 10px;
+        }
+        #site-container #header-container {
+        width: 100%;
+        height: 40px;
+        background: rgb(255, 255, 255);
+        border-bottom: 0.5px solid black;
+        }
+        #site-container #header-container #header {
+        height: 40px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        }
+        #site-container #header-container #header #logo {
+        display: block;
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        height: 36px;
+        width: 90px;
+        background-image: url(null-code.png);
+        
+        }
+        
+        #main-block {
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 10px;
+        }
+        #main-block #content-column {
+            background: #adadad;
+            min-height: 300px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            
+        }
+        #main-block #content-column h1 {
+            color: #000000;
+            padding-top: 10px;
+            margin: 5px;
+            font-size: 16px;
+            line-height: 18px;
+            font-weight: normal;
+        }
+        #main-block #content-column img {
+            float:right;
+            margin-top: -40px;
+            margin: 7px 7px 7px 0;
+            border-radius: 20px;
+        }
+        
+        #main-block #content-column ul{
+            margin: 0;
+            padding: 4px;
+        }
+        
+        #main-block #content-column li{
+            float: left;
+            display: inline;
+            padding: 10px;
+            width: 20%;
+            margin-left: 5%;
+            margin-bottom: 10px;
+        
+        }   
+        
+        #main-block #content-column ul img{
+            margin-right: 50%;
+        }
+        #main-block #content-column iframe{
+            margin-bottom: 5px;
+        }
+        
+        #main-block #side-column{
+            border-radius: 10px;
+        }
+        
+        #main-block #side-column h2{
+        color: #000000;
+        margin: 5px;
+        font-size: 15px;
+        line-height: 16px;
+        }
+        #main-block #side-column ul{
+            color: #000000;
+            margin-left: 25px;
+            font-size: 16px;
+            line-height: 16px;
+        
+        }
+        #main-block #side-column li{
+            display:table;
+            margin-top: 15px;
+            border: 1px solid black; 
+            padding: 10px; 
+            background-color: white;
+            border-radius: 20px;
+        }
+        #main-block #side-column li:hover{
+            color: white;
+            background-color: black;
+            transition: 1s ease-out;
+        }
+        #main-block #side-column a{
+            color: black;
+            text-decoration: none;
+        
+        }
+        #main-block #side-column a:visited{
+            color: black;
+        
+        }
+        #main-block #side-column a:hover{
+            text-decoration: white;
+            text-decoration-line: underline;
+            transition: 1s ease-out;
+        
+        }
+        #main-block #side-column input,button{
+            border-radius: 20px;
+            border: 1px solid black;
+            margin-top: 10px;
+            padding: 10px;
+            outline:none;
+        }
+        
+        #main-block #content-column p {
+        margin: 5px;
+        }
+        #main-block #side-column {
+        width: 100%;
+        background: #715fc4;
+        min-height: 300px;
+        }
 
 }
