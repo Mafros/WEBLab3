@@ -62,10 +62,9 @@ margin-top: 10px;
 }
 #main-block #content-column {
     background: #adadad;
-    min-height: auto;
     margin-bottom: 15px;
     border-radius: 10px;
-    
+    min-height: 300px;
 }
 #main-block #content-column h1 {
     color: #000000;
@@ -86,7 +85,6 @@ margin-top: 10px;
 
 #main-block #content-column ul{
     padding: 4px;
-    min-height: auto;
 }
 
 #main-block #content-column li{
@@ -224,7 +222,7 @@ float: right;
 }
 
 #main-block #content-column p{
-    padding-bottom: 150px;
+    padding-bottom:15px;
 }
 
 #main-block #side-column{
